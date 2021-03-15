@@ -22,4 +22,4 @@ const mapStateToProps = (state) => {
 }
 
 // connect this component to Redux
-export default connect()(Users);
+export default connect(mapStateToProps)(Users);
